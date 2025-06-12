@@ -1,0 +1,20 @@
+# Node modules
+portfolio-frontend/node_modules/
+portfolio-backend/node_modules/
+
+# Build output
+portfolio-frontend/build/
+portfolio-frontend/dist/
+
+# Environment files
+portfolio-frontend/.env
+portfolio-backend/.env
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+
+# OS-specific
+Thumbs.db

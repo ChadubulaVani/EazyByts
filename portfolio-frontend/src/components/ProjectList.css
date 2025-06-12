@@ -1,0 +1,113 @@
+.project-list-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tech-list {
+  margin-top: 10px;
+}
+
+.tech-chip {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  margin: 4px 4px 0 0;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.edit-btn {
+  padding: 6px 12px;
+  background-color: #ec0f0f;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.edit-btn:hover {
+  background-color: #2980b9;
+}
+
+.edit-form {
+  margin-top: 20px;
+  border: 1px solid #000000;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.edit-form button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-form button[type="submit"] {
+  background-color: #00ff6a;
+  color: white;
+}
+
+.edit-form button[type="submit"]:hover {
+  background-color: #09d0e2;
+}
+
+.edit-form button[type="button"] {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.edit-form button[type="button"]:hover {
+  background-color: #c0392b;
+}
+.img3 {
+    background-image: url("https://i.pinimg.com/736x/02/c1/70/02c1705facb70b09797338a8a4cf59a2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+

@@ -1,0 +1,40 @@
+ .skills-container {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.skill-group {
+  margin-bottom: 20px;
+}
+
+.skill-group h4 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.chip {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.chip:hover {
+  background-color: #388e3c;
+  cursor: default;
+}
